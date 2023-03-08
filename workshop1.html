@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>PETs for the Public Interest</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Sidebar style -->
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+</style>
+
+<!-- Table style -->
+<style>
+#agenda {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#agenda td, #agenda th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#agenda tr:nth-child(even){background-color: #f2f2f2;}
+
+#agenda tr:hover {background-color: #ddd;}
+
+#agenda th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-theme-l1">PETs for the Public Interest</a>
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <!--<h4 class="w3-bar-item"><b>Workshop 1</b></h4>-->
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">About</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="agenda1.html">Agenda for Workshop 1</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="https://docs.google.com/forms/d/e/1FAIpQLSfzwNXfXbMQnC9cJfEdyASBYKoj1KcG5hmTQ0iF5EDpj-hmvw/viewform">RSVP to Workshop 1</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="https://docs.google.com/forms/d/e/1FAIpQLSdUAuedXkOgQzt7lVePwXod8DEIP-0qY9cAIhc6DHCbdBp9vQ/viewform">Nomination form</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#contact-us">Contact</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-container">
+      <h1 class="w3-text-teal">Privacy Enhancing Technologies for the Public Interest</h1>
+      <p>PETs for the Public Interest is a workshop series aiming to build a community of researchers and stakeholders to create Privacy Enhancing Technologies (PETs) with positive impact on the public interest.  This series of workshops is hosted by Gabriel Kaptchuk and Sarah Scheffler and is funded by a generous gift from Schmidt Futures.</p>
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-container">
+	  <h2 class="w3-text-teal">First workshop takes place October 21</h2>
+      <p>Please see the agenda for the first workshop <a href="agenda1.html">here</a>.</p>
+      <p>The workshop will take place in the Seminar Room of the Rafik B. Hariri Institute for Computing and Computational Science & Engineering at Boston University, room MCS 157.  The room is located at the East side of the MCS
+      building (111 Cummington Mall).</p>
+      <p>Our first workshop is an invite-only event for junior academic researchers in security, cryptography, or privacy who are interested in public interest PETs.  The event will focus on (1) the methods used to pursue these interdisciplinary research questions, and (2) cohort building.  We will discuss how members of our community have approached research on PETs with direct application to the public interest, especially in collaboration with non-technical stakeholders.  We hope that we can build stronger ties between young researchers in this area so that we can, together, make a greater impact.  This event will take place at Boston University on October 21, 2022.  
+      <!--You can nominate yourself or someone else for an invite <a href="https://docs.google.com/forms/d/e/1FAIpQLSdUAuedXkOgQzt7lVePwXod8DEIP-0qY9cAIhc6DHCbdBp9vQ/viewform">here</a>.-->
+          </p>
+      <p>We have not really seen a workshop or conference format that prioritizes helpful discussions among junior researchers, so we are
+      attempting to create it!  
+      This workshop is formatted around discussion, in contrast to more typical computer science workshops.
+      We hope to share research methodologies, improve communication across fields, and create opportunities for collaboration.</p>
+    </div>
+  </div>
+  
+  <div class="w3-row w3-padding-64">
+  <div class="w3-row">
+    <!--<div class="w3-twothird w3-container">-->
+	<div class="w3-container">
+	  <h2 class="w3-text-teal">Future workshops</h2>
+      <p>In the months following the first workshop, we will run two additional workshops open to the larger community, including more senior researchers, government stakeholders, and activists.  To be added to the email list to receive future updates, please contact Gabriel Kaptchuk (<a href="mailto:kaptchuk@bu.edu">kaptchuk@bu.edu</a>).</p>
+    </div>
+  </div>
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-container">
+      <h3 class="w3-text-teal"><a id="contact-us">Contact us</a></h3>
+	  <p>To be added to the email list to receive future updates, please contact Gabriel Kaptchuk (<a href="mailto:kaptchuk@bu.edu">kaptchuk@bu.edu</a>).</p>
+	  <p>For any other questions, feel free to contact Gabriel Kaptchuk (<a href="mailto:kaptchuk@bu.edu">kaptchuk@bu.edu</a>) or Sarah Scheffler (<a href="mailto:sscheff@princeton.edu">sscheff@princeton.edu</a>) by email.</p>
+    </div>
+  </div>
+
+  <div class="w3-row w3-padding-64">
+  <div class="w3-row w3-padding-64">
+  <div class="w3-row w3-padding-64">
+  <div class="w3-row w3-padding-64">
+  <div class="w3-row w3-padding-64">
+
+  <footer id="myFooter">
+   <!-- <div class="w3-container w3-theme-l2 w3-padding-32">
+      <h4>Footer</h4>
+    </div>-->
+
+    <div class="w3-container w3-theme-l2">
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>
